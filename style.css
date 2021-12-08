@@ -3,3 +3,35 @@ color:black;
 text-align: center;
 font-size: 50px;
 margin: 60px;}
+
+.button-class {
+    background-color: purple;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.button-class:hover {
+    background-color:palevioletred;
+}
+
+h1 {text-align: center;
+    font-size: 100px;    
+}
+
+input {background-color: purple;
+    margin: 30px 665px;
+    width: 30%;
+    color: white;
+    padding: 10px;
+    font-size: 50px;
+    border-radius: 10px;
+    padding: 20px;  
+}
+
+input:hover {
+    background-color:palevioletred;
+}

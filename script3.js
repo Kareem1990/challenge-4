@@ -6,7 +6,7 @@ var quesEl = document.querySelector(".page-content")
 
 var quesOle = quesEl.querySelector("#quesOl");
 
-quesOle.textContent = "Are you a human?"
+quesOle.textContent = "Are you an Animal?"
 
 
 var bt1 = document.createElement("button")
@@ -30,13 +30,14 @@ bt4.textContent = "4- I Don't know!";
 quesOle.appendChild(bt4);
 bt4.className="button-class";
 
-bt1.addEventListener("click", function() {
-    alert("Right Answer");
-    location.href = "/Users/kareemmagdy/Desktop/challenge-4/index3.html";
+
+  bt1.addEventListener("click", function() {
+    alert("Wrong answer, Try again");
   });
 
   bt2.addEventListener("click", function() {
-    alert("Wrong answer, Try again");
+    alert("Right Answer");
+    location.href = "/Users/kareemmagdy/Desktop/challenge-4/index2.html";
   });
 
   bt3.addEventListener("click", function() {
@@ -51,7 +52,7 @@ setInterval(myTimer, 90000);
 
 function myTimer( )
 {alert("Time out, You lose");
-location.href = "/Users/kareemmagdy/Desktop/challenge-4/index2.html";
+location.href = "script2.js";
 }
 
 
