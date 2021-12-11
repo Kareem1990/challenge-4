@@ -2,9 +2,12 @@
 
 var quesEl = document.querySelector(".page-content")
 
-// quesEl.textContent = "Are you a human?"
-
 var quesOle = quesEl.querySelector("#quesOl");
+
+let timeLeft = 90;
+let clockTick;
+let timerEl = document.querySelector(".timer");
+
 
 quesOle.textContent = "Are you a human?"
 
@@ -54,30 +57,20 @@ function myTimer( )
 location.href = "/Users/kareemmagdy/Desktop/challenge-4/index2.html";
 }
 
+// let points = [];
+
+// if (bt1) {points.push(10)}
 
 
+//  function startTimer () {
+//    timerEl.textContent = "Time Remaining " + timeLeft;
+//    if (timeLeft === 0) {
+//      clearInterval(clockTick);
+//      alert("Time out, You lose");
+// location.href = "/Users/kareemmagdy/Desktop/challenge-4/index3.html";
+//     }
+//     timeLeft--;
+//  }
 
-
-//   function startTimer(duration, display) {
-//     var timer = duration, minutes, seconds;
-//     setInterval(function () {
-//         minutes = parseInt(timer / 60, 10);
-//         seconds = parseInt(timer % 60, 10);
-
-//         minutes = minutes < 10 ? "0" + minutes : minutes;
-//         seconds = seconds < 10 ? "0" + seconds : seconds;
-
-//         display.textContent = minutes + ":" + seconds;
-
-//         if (--timer < 0) {
-//             timer = duration;
-//             alert("Time out, you lose!")
-//         }
-//     }, 1000);
-// }
-
-// window.onload = function () {
-//     var fiveMinutes = 60 * 5,
-//         display = document.querySelector('#time');
-//     startTimer(fiveMinutes, display);
-// };
+//  clockTick = setInterval (startTimer, 90000);
+//  startTimer();

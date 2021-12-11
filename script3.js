@@ -37,7 +37,7 @@ bt4.className="button-class";
 
   bt2.addEventListener("click", function() {
     alert("Right Answer");
-    location.href = "/Users/kareemmagdy/Desktop/challenge-4/index2.html";
+    location.href = "index.html";
   });
 
   bt3.addEventListener("click", function() {
@@ -52,9 +52,8 @@ setInterval(myTimer, 90000);
 
 function myTimer( )
 {alert("Time out, You lose");
-location.href = "script2.js";
+location.href = "index.html";
 }
-
 
 
 
