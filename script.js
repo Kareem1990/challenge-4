@@ -35,7 +35,7 @@ bt4.className="button-class";
 
 bt1.addEventListener("click", function() {
     alert("Right Answer");
-    location.href = "/Users/kareemmagdy/Desktop/challenge-4/index3.html";
+    location.href = "index3.html";
   });
 
   bt2.addEventListener("click", function() {
