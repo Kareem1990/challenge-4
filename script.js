@@ -4,9 +4,9 @@ var quesEl = document.querySelector(".page-content")
 
 var quesOle = quesEl.querySelector("#quesOl");
 
-let timeLeft = 90;
-let clockTick;
-let timerEl = document.querySelector(".timer");
+// let timeLeft = 90;
+// let clockTick;
+// let timerEl = document.querySelector(".timer");
 
 
 quesOle.textContent = "Are you a human?"
